@@ -1,0 +1,5 @@
+__pycache__/
+*.tmp
+# re-downloadable with prepare_data.py; data/dna_responses.csv is committed
+data/raw/
+.ipynb_checkpoints/

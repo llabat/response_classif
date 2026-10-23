@@ -1,0 +1,8 @@
+# <hf model id> <n GPUs (tensor parallel size)> -- read by submit_sweep.sh
+# Same candidates as generation_exp/stance_judge/judge_models.txt. bf16 on
+# H200 (141GB): ~30B fits on 1 GPU, 70B+ needs 2 (a whole heavy node).
+google/gemma-4-31B-it 1
+Qwen/Qwen3.5-27B 1
+Qwen/Qwen2.5-72B-Instruct 2
+meta-llama/Meta-Llama-3.1-70B-Instruct 2
+meta-llama/Llama-3.3-70B-Instruct 2
